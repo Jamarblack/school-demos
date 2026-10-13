@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import LandingView from './LandingView';
 import PortalView from './PortalView';
+import { Analytics } from "@vercel/analytics/react"
 
 const customStyles = `
   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
@@ -73,6 +74,7 @@ export default function App() {
       ) : (
         <PortalView onNavigate={() => setCurrentView('landing')} />
       )}
+      <Analytics />
     </>
   );
 }
