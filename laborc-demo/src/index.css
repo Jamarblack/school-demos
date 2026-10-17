@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-emerald: #059669;
+  --color-brand-navy: #0f172a;
+}
+
+body {
+  background-color: #f8fafc;
+  margin: 0;
+}

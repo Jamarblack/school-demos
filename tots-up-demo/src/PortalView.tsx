@@ -3,7 +3,7 @@ import { LayoutDashboard, Users, CreditCard, Bell, LogOut, Menu, X } from 'lucid
 import Dashboard from './Dashboard';
 import Payments from './Payments';
 import WardsProfile from './WardsProfile';
-import crest from './assets/crest.png';
+// import crest from './assets/crest.png';
 
 
 type PortalTab = 'dashboard' | 'wards' | 'payments';
@@ -20,7 +20,7 @@ export default function PortalView({ onNavigate }: { onNavigate: () => void }) {
 
   const handleTabChange = (id: string) => {
     setActiveTab(id as PortalTab);
-    setIsSidebarOpen(false); // Close mobile sidebar on selection
+    setIsSidebarOpen(false); 
   };
 
   const SidebarContent = () => (
