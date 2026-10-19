@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import crest from '../assets/crest.png';
 
 const MaldinoNavbar: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -10,8 +11,8 @@ const MaldinoNavbar: React.FC = () => {
         
         {/* Logo Area */}
         <div className="flex items-center gap-3 cursor-pointer">
-          <div className="w-10 h-10 bg-maldino-gold rounded flex items-center justify-center shadow-lg">
-            <span className="font-serif font-bold text-maldino-navy text-xl">M</span>
+          <div className="w-10 h-10  rounded flex items-center justify-center shadow-lg">
+            <img src={crest} alt="Maldino Crest" className="w-10 h-10" />
           </div>
           <span className="text-white font-serif font-bold text-lg md:text-xl tracking-wide">
             Maldino Divine <span className="text-maldino-gold hidden sm:inline">Academy</span>
