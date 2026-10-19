@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", sans-serif;
+  --color-maldino-navy: #0b1528;
+  --color-maldino-blue: #1e3a8a;
+  --color-maldino-gold: #f59e0b;
+  --color-maldino-gold-light: #fbbf24;
+}
