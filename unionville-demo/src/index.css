@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Plus Jakarta Sans", sans-serif;
-  --color-union-emerald: #047857;
-  --color-union-forest: #064e3b;
-  --color-union-coral: #f43f5e;
-  --color-union-coral-light: #fb7185;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  /* Derived directly from the uniform */
+  --color-union-teal: #164e63;   /* Deep Teal from the skirt */
+  --color-union-navy: #0f172a;   /* Dark Navy from the tie */
+  --color-union-gold: #eab308;   /* Golden yellow stripe */
+  --color-union-red: #ef4444;    /* Crimson red stripe */
 }

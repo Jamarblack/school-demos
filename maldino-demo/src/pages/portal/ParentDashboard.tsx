@@ -68,7 +68,7 @@ const ParentDashboard: React.FC = () => {
              <div className="max-w-4xl mx-auto space-y-6 animate-fade-in-up">
               {/* Added flex-col on mobile, flex-row on md */}
               <div className="bg-white p-6 md:p-8 rounded-2xl border border-slate-200 shadow-sm flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 relative overflow-hidden text-center md:text-left">
-                <div className="absolute top-0 right-0 w-32 h-32 bg-maldino-gold/10 rounded-bl-full"></div>
+                <div className="absolute top-0 right-0 w-32 h-32 bg-maldino-gold/40 rounded-bl-full"></div>
                 <div className="w-20 h-20 md:w-24 md:h-24 shrink-0 rounded-full bg-maldino-navy flex items-center justify-center text-white text-2xl md:text-3xl font-serif font-bold shadow-lg z-10">
                   AJ
                 </div>
