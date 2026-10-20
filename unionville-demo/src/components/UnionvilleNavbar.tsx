@@ -6,7 +6,7 @@ const UnionvilleNavbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-stone-50/90 backdrop-blur-md border-b border-stone-200/80 font-sans">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-stone-300/90 backdrop-blur-md border-b border-stone-200/80 font-sans">
       <div className="container mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
         
         {/* Brand */}

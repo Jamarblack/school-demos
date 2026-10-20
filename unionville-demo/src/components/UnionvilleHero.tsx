@@ -21,8 +21,8 @@ const UnionvilleHero: React.FC = () => {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight text-stone-950 leading-[1.1]">
-              Where Curiosity Meets <span className="text-union-teal relative whitespace-nowrap">
-                Innovation
+              Through learning we  <span className="text-union-teal relative whitespace-nowrap">
+                Flourish
                 <svg className="absolute -bottom-2 left-0 w-full h-3 text-union-gold" viewBox="0 0 100 12" preserveAspectRatio="none">
                   <path d="M0,0 Q25,12 50,0 T100,0" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round"/>
                 </svg>
@@ -30,7 +30,7 @@ const UnionvilleHero: React.FC = () => {
             </h1>
 
             <p className="text-base md:text-lg text-stone-600 max-w-xl mx-auto md:mx-0 leading-relaxed font-medium">
-              At The Unionville School, we nurture future thinkers, creators, and leaders through hands-on STEM programs, holistic arts, and tech-forward learning spaces.
+              At The Unionville School, we nurture future thinkers, creators, and leaders through hands-on holistic arts and learning spaces.
             </p>
 
             <div className="flex flex-col sm:flex-row flex-wrap gap-4 pt-2 justify-center md:justify-start">
@@ -77,13 +77,13 @@ const UnionvilleHero: React.FC = () => {
                 />
                 <div className="p-5 rounded-2xl bg-union-navy text-white shadow-md border-b-4 border-union-gold">
                   <p className="text-[10px] uppercase tracking-widest text-union-gold font-extrabold mb-1">STEM Focused</p>
-                  <p className="text-sm font-semibold leading-snug">Robotics, Coding, and Maker Spaces integrated from primary classes.</p>
+                  <p className="text-sm font-semibold leading-snug">Make Spaces integrated from primary classes.</p>
                 </div>
               </div>
 
               <div className="space-y-4 pt-8">
                 <div className="p-5 rounded-2xl bg-white border border-stone-200 shadow-md">
-                  <p className="text-2xl md:text-3xl font-extrabold text-union-teal">25+</p>
+                  <p className="text-lg md:text-3xl font-extrabold text-union-teal">Curriculum & Activities</p>
                   <p className="text-xs text-stone-600 mt-1 font-bold">Clubs, Sports, and Co-Curricular Activities</p>
                 </div>
                 <img 
