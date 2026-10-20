@@ -17,7 +17,7 @@ const UnionvilleNavbar: React.FC = () => {
               The Unionville <span className="text-union-emerald">School</span>
             </span>
             <span className="text-[10px] text-stone-500 font-semibold uppercase tracking-wider block">
-              Descendo | Floremus
+              Discendo | Floremus
             </span>
           </div>
         </Link>

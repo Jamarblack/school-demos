@@ -112,7 +112,7 @@ const UnionvilleParentDashboard: React.FC = () => {
                        </div>
                        <div>
                          <h2 className="text-2xl font-extrabold text-union-navy uppercase tracking-tight">The Unionville School</h2>
-                         <p className="text-xs font-extrabold text-union-teal tracking-widest uppercase mt-0.5">Descendo | Floremus</p>
+                         <p className="text-xs font-extrabold text-union-teal tracking-widest uppercase mt-0.5">Discendo | Floremus</p>
                          <p className="text-xs text-stone-500 mt-1 font-medium">L.G.A, Michael Adegbola St, Ibeju, Lakowe 105101, Lagose</p>
                        </div>
                      </div>
