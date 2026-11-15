@@ -62,8 +62,8 @@ const AdminDashboard: React.FC = () => {
                   </thead>
                   <tbody className="text-sm">
                     <tr className="border-b border-slate-100">
-                      <td className="px-6 py-4 font-mono text-xs text-slate-500">MDA/26/001</td>
-                      <td className="px-6 py-4 font-bold text-maldino-navy">Adebayo Johnson</td>
+                      <td className="px-6 py-4 font-mono text-xs text-slate-500">STGIA/26/001</td>
+                      <td className="px-6 py-4 font-bold text-maldino-navy">Abdullah Mubaraq</td>
                       <td className="px-6 py-4 text-slate-600">JSS 2A</td>
                       <td className="px-6 py-4"><button className="text-maldino-blue font-semibold text-sm">View Profile</button></td>
                     </tr>

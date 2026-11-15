@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Play, ArrowRight, Star, Sparkles, Menu, X } from 'lucide-react';
-import crest from './assets/crest.png';
+import crest from './assets/crest2.png';
 
 export default function LandingView({ onNavigate }: { onNavigate: () => void }) {
   const [mounted, setMounted] = useState(false);

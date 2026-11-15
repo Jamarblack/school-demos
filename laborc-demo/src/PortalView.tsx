@@ -3,7 +3,7 @@ import { LayoutDashboard, Users, CreditCard, Bell, LogOut, Menu,  } from 'lucide
 import Dashboard from './Dashboard';
 import Payments from './Payments';
 import StudentsProfile from './WardsProfile';
-import crest from './assets/crest.png'; 
+import crest from './assets/crest2.png'; 
 
 type PortalTab = 'dashboard' | 'students' | 'payments';
 

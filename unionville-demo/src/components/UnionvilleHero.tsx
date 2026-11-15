@@ -1,5 +1,5 @@
 import React from 'react';
-import crest from '../assets/crest.png';
+import crest from '../assets/crest2.png';
 
 const UnionvilleHero: React.FC = () => {
   return (

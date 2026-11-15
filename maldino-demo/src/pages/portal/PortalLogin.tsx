@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import crest from '../../assets/crest.png';
+import crest from '../../assets/crest2.png';
 
 const PortalLogin: React.FC = () => {
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ const PortalLogin: React.FC = () => {
     <div className="min-h-screen bg-slate-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8 font-sans">
       <div className="sm:mx-auto sm:w-full sm:max-w-md text-center">
         <div className="mx-auto w-16 h-16 rounded-xl flex items-center justify-center shadow-lg mb-6">
-          <img src={crest} alt="Maldino Divine Academy Crest" className="w-10 h-10" />
+          <img src={crest} alt="Shiekh Tajudeen Gurumoh Islamic Academy  Crest" className="w-10 h-10" />
         </div>
         <h2 className="text-center text-3xl font-serif font-bold text-maldino-navy">
           Sign in to your portal
@@ -66,7 +66,7 @@ const PortalLogin: React.FC = () => {
                 <input 
                   type="text" 
                   key={loginRole} // Forces re-render to update defaultValue when switching roles
-                  defaultValue={loginRole === 'admin' ? 'admin@maldinoacademy.com' : 'parent.johnson@email.com'}
+                  defaultValue={loginRole === 'admin' ? 'admin@shiekhtajudeengurumoh.com' : 'parent.abdullah@email.com'}
                   className="appearance-none block w-full px-4 py-3 border border-slate-300 rounded-lg shadow-sm placeholder-slate-400 focus:outline-none focus:ring-maldino-blue focus:border-maldino-blue sm:text-sm" 
                 />
               </div>

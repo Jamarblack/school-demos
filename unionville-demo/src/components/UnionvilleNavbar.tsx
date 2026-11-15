@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import crest from '../assets/crest.png';
+import crest from '../assets/crest2.png';
 
 const UnionvilleNavbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

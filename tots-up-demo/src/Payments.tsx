@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { CreditCard, ShieldCheck, Sparkles, CheckCircle } from 'lucide-react';
 import { MOCK_FEES } from './data';
-import crest from './assets/crest.png';
+import crest from './assets/crest2.png';
 
 export default function Payments() {
   const [isPaymentModalOpen, setIsPaymentModalOpen] = useState(false);

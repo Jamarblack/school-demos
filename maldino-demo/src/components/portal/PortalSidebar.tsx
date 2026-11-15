@@ -26,7 +26,7 @@ const PortalSidebar: React.FC<PortalSidebarProps> = ({ role, activeTab, setActiv
       {/* Sidebar Panel */}
       <div className={`fixed inset-y-0 left-0 z-50 w-64 bg-maldino-navy text-slate-300 flex flex-col shadow-2xl transform transition-transform duration-300 ease-in-out md:relative md:translate-x-0 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="p-6 border-b border-white/10 flex justify-between items-center">
-          <h3 className="text-white font-serif font-bold text-xl tracking-wide">Maldino Portal</h3>
+          <h3 className="text-white font-serif font-bold text-xl tracking-wide">Shiekh Gurumoh Portal</h3>
           <button className="md:hidden text-white" onClick={() => setIsOpen(false)}>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" /></svg>
           </button>

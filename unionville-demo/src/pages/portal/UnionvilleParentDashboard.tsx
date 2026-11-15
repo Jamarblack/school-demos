@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import UnionvillePortalSidebar from '../../components/portal/UnionvillePortalSidebar';
 import UnionvillePortalHeader from '../../components/portal/UnionvillePortalHeader';
-import crest from '../../assets/crest.png'; // Assuming you still want to use the crest image here
+import crest from '../../assets/crest2.png'; // Assuming you still want to use the crest image here
 
 const UnionvilleParentDashboard: React.FC = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

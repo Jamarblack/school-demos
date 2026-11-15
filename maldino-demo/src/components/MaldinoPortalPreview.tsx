@@ -45,7 +45,7 @@ const MaldinoPortalPreview: React.FC = () => {
               {/* Sidebar */}
               <div className="w-64 bg-maldino-navy text-slate-300 hidden md:flex flex-col border-r border-maldino-navy">
                 <div className="p-6">
-                  <h3 className="text-white font-serif font-bold text-xl tracking-wide">Maldino Portal</h3>
+                  <h3 className="text-white font-serif font-bold text-xl tracking-wide">Shiekh Gurumoh Portal</h3>
                 </div>
                 <nav className="flex-1 px-4 space-y-2">
                   <div className="bg-maldino-blue/30 text-white px-4 py-2.5 rounded-lg text-sm font-medium flex items-center gap-3 border border-maldino-blue/50">

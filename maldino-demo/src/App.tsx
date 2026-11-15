@@ -1,6 +1,6 @@
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Analytics } from '@vercel/analytics/react';
+import { LanguageProvider } from './context/LanguageContext';
 
 // Public Components
 import MaldinoNavbar from './components/MaldinoNavbar';
@@ -28,17 +28,20 @@ const PublicLayout = () => (
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<PublicLayout />} />
-        
-        {/* Portal Routes */}
-        <Route path="/portal/login" element={<PortalLogin />} />
-        <Route path="/portal/admin" element={<AdminDashboard />} />
-        <Route path="/portal/parent" element={<ParentDashboard />} />
-      </Routes>
-      <Analytics />
-    </BrowserRouter>
+    // Wrapping the entire app in the LanguageProvider
+    <LanguageProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<PublicLayout />} />
+          
+          {/* Portal Routes */}
+          <Route path="/portal/login" element={<PortalLogin />} />
+          <Route path="/portal/admin" element={<AdminDashboard />} />
+          <Route path="/portal/parent" element={<ParentDashboard />} />
+        </Routes>
+        <Analytics />
+      </BrowserRouter>
+    </LanguageProvider>
   );
 }
 

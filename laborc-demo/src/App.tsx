@@ -2,7 +2,7 @@ import  { useState } from 'react';
 import LandingView from './LandingView';
 import PortalView from './PortalView';
 import { Analytics } from "@vercel/analytics/react";
-import crest from './assets/crest.png'; // Import the Laborc crest here
+import crest from './assets/crest2.png'; // Import the Laborc crest here
 
 const customStyles = `
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
